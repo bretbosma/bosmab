@@ -1,6 +1,5 @@
 ---
-title: Bret Bosma Research Page
+title: Bret Bosma
 ---
 
-Bret Bosma: Research Associate
-Oregon State University
+Research Associate: Oregon State University
