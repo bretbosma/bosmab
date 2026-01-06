@@ -1,6 +1,6 @@
 ---
 title: "Bret Bosma"
-subtitle: Research Associate: Oregon State University
+subtitle: Research Associate | Oregon State University
 
 about: 
     image: profile.jpg
