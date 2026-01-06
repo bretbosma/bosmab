@@ -1,5 +1,6 @@
 ---
-title: Quarto Template
+title: Bret Bosma Research Page
 ---
 
-Quarto template Text!
+Bret Bosma: Research Associate
+Oregon State University

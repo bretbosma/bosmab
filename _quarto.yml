@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Quarto Template"
+  title: "Bret Bosma Research Page"
   navbar:
     right:
       - href: index.qmd
