@@ -1,6 +1,6 @@
 ---
 title: "Bret Bosma"
-subtitle: Research Associate | Oregon State University
+subtitle: "Research Associate | Oregon State University"
 
 about: 
     image: profile.jpg
@@ -16,3 +16,5 @@ about:
 ::: {#hero-heading}
 
 Physical and numerical modeling of ocean wave energy converters at the [O.H. Hinsdale Wave Research Laboratory](wave.oregonstate.edu).
+
+:::
