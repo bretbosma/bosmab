@@ -5,12 +5,12 @@ color:
     light-grey: "#dddddd"
     dark-grey: "#222222"
     darkish-grey: "#494848"
-    yellow: "#fed136"
+    blue: "#0077b6"
     blue-grey: "#a2afbb"
     blue: "rgb(44, 90, 151)"
   background: white
   foreground: dark-grey
-  primary: yellow
+  primary: blue
   secondary: grey
 typography:
   fonts:
@@ -35,7 +35,7 @@ defaults:
   bootstrap:
     defaults:
       navbar-bg: $brand-dark-grey
-      navbar-fg: $brand-yellow
+      navbar-fg: $brand-blue
     rules: |
       .card .card-attribution{
         color: $brand-blue;

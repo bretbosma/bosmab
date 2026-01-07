@@ -5,11 +5,11 @@ color:
     light-grey: "#f7f7f7"
     dark-grey: "#222222"
     darkish-grey: "#494848"
-    yellow: "#fed136"
+    blue: "#0077b6"
     blue-grey: "#a2afbb"
   background: dark-grey
   foreground: white
-  primary: yellow
+  primary: blue
   secondary: grey
 typography:
   fonts:
@@ -22,10 +22,10 @@ typography:
     family: Montserrat
     size: 20px
   link:
-    color: yellow
+    color: blue
   headings:
     family: Figtree
-    color: yellow
+    color: blue
     line-height: 1.2
   monospace-inline:
     background-color: darkish-grey
@@ -34,7 +34,7 @@ defaults:
   bootstrap:
     defaults:
       navbar-bg: $brand-dark-grey
-      navbar-fg: $brand-yellow
+      navbar-fg: $brand-blue
     rules: |
       .about-image {
         border: 8px solid $brand-white;
