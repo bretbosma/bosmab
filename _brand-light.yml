@@ -14,7 +14,7 @@ color:
   secondary: grey
 typography:
   fonts:
-    - family: Kaushan Script
+    - family: Figtree
       source: google
     - family: Montserrat
       source: google
@@ -25,7 +25,7 @@ typography:
   link:
     color: blue
   headings:
-    family: Kaushan Script
+    family: Figtree
     color: blue
     line-height: 1.2
   monospace-inline:
