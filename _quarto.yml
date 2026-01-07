@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Bret Bosma Research Page"
+  title: "Bret Bosma Research"
   navbar:
     right:
       - href: index.qmd
@@ -17,7 +17,7 @@ format:
     theme:
       light: [litera, styles.scss]
     highlight-style: a11y-dark
-    mainfont: "Roboto"
+    mainfont: ""
     code-copy: true
     code-overflow: wrap
 

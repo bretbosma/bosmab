@@ -10,7 +10,7 @@ about:
     links:
       - icon: github
         text: github
-        href: https://github.com/bretbosma
+        href: https://github.com/bretbosma/
 ---
 
 ::: {#hero-heading}
