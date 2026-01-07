@@ -15,6 +15,6 @@ about:
 
 ::: {#hero-heading}
 
-Physical and numerical modeling of ocean wave energy converters at the [O.H. Hinsdale Wave Research Laboratory](wave.oregonstate.edu).
+Physical and numerical modeling of ocean wave energy converters at the [O.H. Hinsdale Wave Research Laboratory](https://engineering.oregonstate.edu/wave-lab).
 
 :::
