@@ -1,4 +1,7 @@
 ---
 title: cv
-[Bret's cv](bretbosma2026cv.pdf)
 ---
+[Bret's cv](docs/bretbosma2026cv.pdf)
+
+
+
