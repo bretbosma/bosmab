@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Bret Bosma Research Blog",
+    "objectID": "posts/welcome.html",
+    "href": "posts/welcome.html",
+    "title": "Welcome",
     "section": "",
-    "text": "Simple Visualisation\n\n\n\nML\n\n\n\n\n\n\n\n\n\nJan 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\nWelcome Post\n\n\n\n\n\nJan 6, 2026\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/visualisation.html",
-    "href": "posts/visualisation.html",
-    "title": "Simple Visualisation",
-    "section": "",
-    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
+    "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
   },
   {
     "objectID": "index.html",
@@ -21,10 +14,17 @@
     "text": "Physical and numerical modeling of ocean wave energy converters at the O.H. Hinsdale Wave Research Laboratory.\n \n  \n   \n  \n    \n     GitHub"
   },
   {
-    "objectID": "posts/welcome.html",
-    "href": "posts/welcome.html",
-    "title": "Welcome",
+    "objectID": "posts/visualisation.html",
+    "href": "posts/visualisation.html",
+    "title": "Simple Visualisation",
     "section": "",
-    "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
+    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Bret Bosma Research Blog",
+    "section": "",
+    "text": "Simple Visualisation\n\n\n\nML\n\n\n\n\n\n\n\n\n\nJan 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\nWelcome Post\n\n\n\n\n\nJan 6, 2026\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
   }
 ]
