@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-de8274a4d1ecc1e6aaeaf6e5564b5074.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a3e1fc45a73f88f5d4afef531d9c17af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5dfca5182349016e4b89c26964ba778e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-a3e1fc45a73f88f5d4afef531d9c17af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-a3e1fc45a73f88f5d4afef531d9c17af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5dfca5182349016e4b89c26964ba778e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,7 +76,169 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -108,6 +270,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -120,10 +283,10 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Publications</h1>
-<p class="subtitle lead">List of publications</p>
 </div>
 
 
@@ -142,47 +305,46 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="yui-gf">
     <div class="yui-u first">
-    <h2 class="anchored">Publications</h2>
+    <h2 class="anchored">First Author</h2>
     </div>
     <div class="yui-u">
     <p>B. Bosma et al., “<a href="https://submissions.ewtec.org/proc-ewtec/article/view/826">System identification techniques applied to a laboratory scale WEC point absorber</a>,” Proc. Eur. Wave Tidal Energy Conf., vol. 16, Sept. 2025, doi: 10.36688/ewtec-2025-826.</p>
-    <p>&nbsp;</p>   
     <p>B. Bosma, C. Beringer, and B. Robertson, “<a href="https://submissions.ewtec.org/proc-ewtec/article/view/184">Experimental passive and reactive control of a Laboratory Scale WEC Point Absorber</a>,” in Proceedings of the European Wave and Tidal Energy Conference, 2023.</p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma, R. Coe, G. Bacelli, T. Brekken, and B. Gunawan, “<a href="https://www.sciencedirect.com/science/article/pii/S2468067222000773">Mini-DAQ: A lightweight, low-cost, high resolution, data acquisition system for wave energy converter testing</a>,” HardwareX, vol. 12, p. e00332, Oct. 2022, doi: 10.1016/j.ohx.2022.e00332.</p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma, C. Beringer, M. Leary, B. Robertson, “<a href="https://submissions.ewtec.org/proc-ewtec/article/view/ewtec2021-offline-proceedings">Design and modeling of a laboratory scale WEC point absorber,</a>” presented at the 14th European Wave and Tidal Energy Conference (EWTEC), Plymouth, UK, 2021.</p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma, T. Brekken, P. Lomonaco, B. DuPont, C. Sharp, and B. Batten, “<a href="https://marineenergyjournal.org/imej/article/view/63">Array modeling and testing of fixed OWC type Wave Energy Converters</a>,” Int. Mar. Energy J., vol. 3, no. 3, Art. no. 3, Dec. 2020, doi: 10.36688/imej.3.137-143.</p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma, T. Brekken, P. Lomonaco, B. DuPont, C. Sharp, and B. Batten, “<a href="https://submissions.ewtec.org/proc-ewtec/article/view/ewtec2019-offline-proceedings">Array modeling and testing of fixed OWC type Wave Energy Converters,</a>” presented at the 
     13 th  European Wave and Tidal Energy Conference (EWTEC), Naples, Italy 2019.</p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma, T. Brekken, P. Lomonaco, A. McKee, B. Paasch, B. Batten, “<a href="https://submissions.ewtec.org/proc-ewtec/article/view/ewtec2017-offline-proceedings">Physical Model Testing and System Identification of a Cylindrical OWC Device,</a>” presented at the 
     12 th  European Wave and Tidal Energy Conference (EWTEC), Cork, Ireland, 2017.</p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma, A. Simmons, P. Lomonaco, K. Ruehl, and B. Gunawan, “<a href="https://asmedigitalcollection.asme.org/OMAE/proceedings/OMAE2016/49972/V006T09A025/281309">WEC-Sim Phase 1 Validation Testing: Experimental Setup and Initial Results</a>,” in ASME 2016 35th International Conference on Ocean, Offshore and Arctic Engineering, 2016, p. V006T09A025-V006T09A025.</p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma, T. Lewis, T. Brekken, and A. von Jouanne, “<a href="https://www.mdpi.com/1996-1073/8/8/8857">Wave Tank Testing and Model Validation of an Autonomous Wave Energy Converter</a>,” Energies, vol. 8, no. 8, pp. 8857–8872, Aug. 2015.</p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma, W. Sheng, and F. Thiebaut, “<a href="https://publications.evolvingcities.org/proc-ewtec/article/view/ewtec2015-offline-proceedings">Comparison of a Traditional Catenary and Compliant Taut Mooring System for Marine Energy Systems,</a>” presented at the 11 th  European Wave and Tidal Energy Conference (EWTEC), Nantes, France, 2015.<br>
-    </p><p>&nbsp;</p>
-    <p>B. Bosma, W. Sheng, and F. Thiebaut, “<a href="https://www.ocean-energy-systems.org/publications/icoe-conference/poster-awards/document/performance-evaluation-of-a-floating-power-system-for-the-galway-bay-wave-energy-test-site/">Performance Assessment of a Floating Power System for the Galway Bay Wave Energy Test Site</a>,” presented at the ICOE 2014.<br>
+
+    </p><p>B. Bosma, W. Sheng, and F. Thiebaut, “<a href="https://www.ocean-energy-systems.org/publications/icoe-conference/poster-awards/document/performance-evaluation-of-a-floating-power-system-for-the-galway-bay-wave-energy-test-site/">Performance Assessment of a Floating Power System for the Galway Bay Wave Energy Test Site</a>,” presented at the ICOE 2014.<br>
     <strong>Second prize best poster award</strong></p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma, “<a href="http://hdl.handle.net/1957/41003">On the design, modeling, and testing of ocean wave energy converters</a>,” Dissertation, Oregon State University, Jul. 2013.</p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma, T.K.A. Brekken, H. T. Ozkan-Haller, S. C. Yim, “<a href="https://ieeexplore.ieee.org/document/6617305">Wave Energy Converter Modeling in the Time Domain: A Design Guide</a>,” in IEEE Conference on Technologies for Sustainability, 2013. SusTech, 2013.</p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma, Z. Zhang, T. K. A. Brekken, H. T. Ozkan-Haller, C. McNatt, and S. C. Yim, “<a href="https://ieeexplore.ieee.org/document/6342553">Wave energy converter modeling in the frequency domain: A design guide</a>,” in<br>
         2012 IEEE Energy Conversion Congress and Exposition (ECCE), 2012, pp. 2099 –2106.</p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma and G. Kallio, “<a href="https://peer.asee.org/renewable-energy-labs-for-an-undergraduate-energy-systems-course">Renewable Energy Labs for an Undergraduate Energy Systems Course</a>,” in 2009 Annual Conference &amp; Exposition, Austin, TX, USA, 2009.<br>
     <strong>Best Paper Award</strong></p>
-    <p>&nbsp;</p>
+
     <p>B. Bosma, “<a href="https://csu-chico.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991001836769702904&amp;context=L&amp;vid=01CALS_CHI:01CALS_CHI&amp;lang=en&amp;search_scope=MyInst_and_CI&amp;adaptor=Local%20Search%20Engine&amp;tab=Rapido&amp;query=any,contains,A%20novel%20technique%20for%20maximum%20power%20operation%20of%20photovoltaic%20arrays%20using%20real%20time%20identification&amp;mode=Basic&amp;pcAvailability=false">A novel technique for maximum power operation of photovoltaic arrays using real time identification</a>,” California State University, Chico., 2008.<br>
     </p>
-    <p>&nbsp;</p>
+
     </div>
 </div>
 
@@ -191,6 +353,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
