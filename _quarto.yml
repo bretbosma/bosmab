@@ -14,6 +14,10 @@ website:
       - href: blog.qmd
         text: Blog
 
+brand:
+  light: _brand-light.yml
+  dark: _brand.yml
+
 
 format:
   html:

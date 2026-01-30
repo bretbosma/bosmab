@@ -5,16 +5,16 @@ color:
     light-grey: "#dddddd"
     dark-grey: "#222222"
     darkish-grey: "#494848"
-    blue: "#0077b6"
+    yellow: "#fed136"
     blue-grey: "#a2afbb"
     blue: "rgb(44, 90, 151)"
   background: white
   foreground: dark-grey
-  primary: blue
+  primary: yellow
   secondary: grey
 typography:
   fonts:
-    - family: Figtree
+    - family: figtree
       source: google
     - family: Montserrat
       source: google
@@ -25,7 +25,7 @@ typography:
   link:
     color: blue
   headings:
-    family: Figtree
+    family: Kaushan Script
     color: blue
     line-height: 1.2
   monospace-inline:
@@ -35,7 +35,7 @@ defaults:
   bootstrap:
     defaults:
       navbar-bg: $brand-dark-grey
-      navbar-fg: $brand-blue
+      navbar-fg: $brand-yellow
     rules: |
       .card .card-attribution{
         color: $brand-blue;
