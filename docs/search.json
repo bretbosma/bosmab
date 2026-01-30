@@ -1,10 +1,18 @@
 [
   {
+<<<<<<< HEAD
     "objectID": "pubs.html",
     "href": "pubs.html",
     "title": "Publications",
     "section": "",
     "text": "Publications\n    \n    \n    B. Bosma et al., “System identification techniques applied to a laboratory scale WEC point absorber,” Proc. Eur. Wave Tidal Energy Conf., vol. 16, Sept. 2025, doi: 10.36688/ewtec-2025-826.\n        \n    B. Bosma, C. Beringer, and B. Robertson, “Experimental passive and reactive control of a Laboratory Scale WEC Point Absorber,” in Proceedings of the European Wave and Tidal Energy Conference, 2023.\n     \n    B. Bosma, R. Coe, G. Bacelli, T. Brekken, and B. Gunawan, “Mini-DAQ: A lightweight, low-cost, high resolution, data acquisition system for wave energy converter testing,” HardwareX, vol. 12, p. e00332, Oct. 2022, doi: 10.1016/j.ohx.2022.e00332.\n     \n    B. Bosma, C. Beringer, M. Leary, B. Robertson, “Design and modeling of a laboratory scale WEC point absorber,” presented at the 14th European Wave and Tidal Energy Conference (EWTEC), Plymouth, UK, 2021.\n     \n    B. Bosma, T. Brekken, P. Lomonaco, B. DuPont, C. Sharp, and B. Batten, “Array modeling and testing of fixed OWC type Wave Energy Converters,” Int. Mar. Energy J., vol. 3, no. 3, Art. no. 3, Dec. 2020, doi: 10.36688/imej.3.137-143.\n     \n    B. Bosma, T. Brekken, P. Lomonaco, B. DuPont, C. Sharp, and B. Batten, “Array modeling and testing of fixed OWC type Wave Energy Converters,” presented at the \n    13 th  European Wave and Tidal Energy Conference (EWTEC), Naples, Italy 2019.\n     \n    B. Bosma, T. Brekken, P. Lomonaco, A. McKee, B. Paasch, B. Batten, “Physical Model Testing and System Identification of a Cylindrical OWC Device,” presented at the \n    12 th  European Wave and Tidal Energy Conference (EWTEC), Cork, Ireland, 2017.\n     \n    B. Bosma, A. Simmons, P. Lomonaco, K. Ruehl, and B. Gunawan, “WEC-Sim Phase 1 Validation Testing: Experimental Setup and Initial Results,” in ASME 2016 35th International Conference on Ocean, Offshore and Arctic Engineering, 2016, p. V006T09A025-V006T09A025.\n     \n    B. Bosma, T. Lewis, T. Brekken, and A. von Jouanne, “Wave Tank Testing and Model Validation of an Autonomous Wave Energy Converter,” Energies, vol. 8, no. 8, pp. 8857–8872, Aug. 2015.\n     \n    B. Bosma, W. Sheng, and F. Thiebaut, “Comparison of a Traditional Catenary and Compliant Taut Mooring System for Marine Energy Systems,” presented at the 11 th  European Wave and Tidal Energy Conference (EWTEC), Nantes, France, 2015.\n     \n    B. Bosma, W. Sheng, and F. Thiebaut, “Performance Assessment of a Floating Power System for the Galway Bay Wave Energy Test Site,” presented at the ICOE 2014.\n    Second prize best poster award\n     \n    B. Bosma, “On the design, modeling, and testing of ocean wave energy converters,” Dissertation, Oregon State University, Jul. 2013.\n     \n    B. Bosma, T.K.A. Brekken, H. T. Ozkan-Haller, S. C. Yim, “Wave Energy Converter Modeling in the Time Domain: A Design Guide,” in IEEE Conference on Technologies for Sustainability, 2013. SusTech, 2013.\n     \n    B. Bosma, Z. Zhang, T. K. A. Brekken, H. T. Ozkan-Haller, C. McNatt, and S. C. Yim, “Wave energy converter modeling in the frequency domain: A design guide,” in\n        2012 IEEE Energy Conversion Congress and Exposition (ECCE), 2012, pp. 2099 –2106.\n     \n    B. Bosma and G. Kallio, “Renewable Energy Labs for an Undergraduate Energy Systems Course,” in 2009 Annual Conference & Exposition, Austin, TX, USA, 2009.\n    Best Paper Award\n     \n    B. Bosma, “A novel technique for maximum power operation of photovoltaic arrays using real time identification,” California State University, Chico., 2008."
+=======
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bret Bosma",
+    "section": "",
+    "text": "Physical and numerical modeling of ocean wave energy converters at the O.H. Hinsdale Wave Research Laboratory.\n \n  \n   \n  \n    \n     GitHub"
+>>>>>>> 588eac95a0ce538d96d96c31c70295323efa1218
   },
   {
     "objectID": "posts/welcome.html",
@@ -26,5 +34,15 @@
     "title": "Simple Visualisation",
     "section": "",
     "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
+<<<<<<< HEAD
+=======
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "cv",
+    "section": "",
+    "text": "Bret’s cv"
+>>>>>>> 588eac95a0ce538d96d96c31c70295323efa1218
   }
 ]

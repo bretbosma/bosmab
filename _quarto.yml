@@ -8,6 +8,9 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - href: bretbosma2026cv.pdf
+        text: cv
+        target: _blank
       - href: blog.qmd
         text: Blog
 
