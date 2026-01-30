@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bretbosma.github.io/bosmab/cv/index.html</loc>
-    <lastmod>2026-01-15T23:42:28.477Z</lastmod>
+    <lastmod>2026-01-30T20:29:23.686Z</lastmod>
   </url>
   <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/welcome.html</loc>
-    <lastmod>2026-01-15T23:42:28.489Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/index.html</loc>
-    <lastmod>2026-01-15T23:42:28.489Z</lastmod>
+    <loc>https://bretbosma.github.io/bosmab/pubs.html</loc>
+    <lastmod>2026-01-30T20:29:23.704Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/posts/visualisation.html</loc>
-    <lastmod>2026-01-15T23:42:28.489Z</lastmod>
+    <lastmod>2026-01-30T20:29:23.700Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/index.html</loc>
+    <lastmod>2026-01-30T20:29:23.700Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/welcome.html</loc>
+    <lastmod>2026-01-30T20:29:23.700Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/blog.html</loc>
-    <lastmod>2026-01-15T23:42:28.477Z</lastmod>
+    <lastmod>2026-01-30T20:29:23.686Z</lastmod>
   </url>
 </urlset>
