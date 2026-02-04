@@ -6,14 +6,19 @@ website:
   title: "Bret Bosma Research"
   site-url: https://bretbosma.github.io/bosmab/
   search: false
-  
+  favicon: favicon.ico
   navbar:
+    id: top-nav
+    pinned: true
+    toggle-position: right
     right:
       - href: index.qmd
         text: Home
       - href: bretbosma2026cv.pdf
         text: cv
         target: _blank
+      - href: pubs.qmd
+        text: pubs
       - href: blog.qmd
         text: Blog
 
@@ -24,12 +29,8 @@ brand:
 
 format:
   html:
-    theme:
-      light: [litera, styles.scss]
-    highlight-style: a11y-dark
-    mainfont: "figtree"
-    code-copy: true
-    code-overflow: wrap
+    theme: styles.scss
+    respect-user-color-scheme: true
 
 
 execute:

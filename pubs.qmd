@@ -5,6 +5,7 @@ subtitle: ""
 ---
 
 ```{=html}
+<!--// .yui-gf -->
 <div class="yui-gf">
     <div class="yui-u first">
     <h2>First Author</h2>
@@ -48,5 +49,85 @@ subtitle: ""
     </p>
 
     </div>
+        <!--// .yui-gf -->
+        <div class="yui-gf">
+  		  <div class="yui-u first">
+            <h2>co-author</h2>
+			</div>
+			<div class="yui-u">
+			<h3>2025</h3>
+			<p>C. Beringer, B. Bosma, and B. Robertson, “A numerical and experimental study of wave energy converter number of bodies and degrees of freedom,” Renew. Energy, vol. 259, p. 125089, Mar. 2026, doi: 10.1016/j.renene.2025.125089.</p>
+			<p>&nbsp;</p>
+			<p>C. Beringer, B. Bosma, and B. Robertson, “Detailed uncertainty analysis and nonlinear effects of wave energy converter experimental testing in regular waves,” Ocean Eng., vol. 348, p. 123024, Mar. 2026, doi: 10.1016/j.oceaneng.2025.123024.</p>
+			<p>&nbsp;</p>
+			<p>A. McConnell, B. Robertson, and B. Bosma, “Experimental Validation of a Real-Time Hybrid Mooring System for Wave Energy Systems Using a Linear Test Bed,” Proc. Eur. Wave Tidal Energy Conf., vol. 16, Sept. 2025, doi: 10.36688/ewtec-2025-703.</p>
+			<p>&nbsp;</p>			
+			<p>D. Gaebele et al., “Streamlined Experimental Approach to System Identification of WEC Dynamics and Excitation Characteristics,” in International Conference on Offshore Mechanics and Arctic Engineering, American Society of Mechanical Engineers, 2025, p. V005T09A055. Available: https://asmedigitalcollection.asme.org/OMAE/proceedings-abstract/OMAE2025/88940/1221454</p>
+			<p>&nbsp;</p>
+			<p>R. Ali, A. Roach, B. Bosma, and B. Robertson, “Experimental Analysis of the Effect of Surge-Pitch Coupling on the Dynamics and Power Production a Submerged Wave Energy Converter,” in Proceedings of the European Wave and Tidal Energy Conference, 2025. Available: https://submissions.ewtec.org/proc-ewtec/article/view/881</p>
+			<p>&nbsp;</p>
+			<p>Y. Ni et al., “A Robotic Actuation Approach for 6-DOF Force Control in Hydrodynamic Real-Time Hybrid Simulation*,” in 2025 IEEE 21st International Conference on Automation Science and Engineering (CASE), Aug. 2025, pp. 3211–3216. doi: 10.1109/CASE58245.2025.11164156.</p>
+			<p>&nbsp;</p>
+			<p>C. Beringer, B. Bosma, and B. Robertson, “Degrees of freedom effects on a laboratory scale WEC point absorber,” Int. Mar. Energy J., vol. 8, no. 1, pp. 29–35, 2025.</p>
+			<p>&nbsp;</p>
+			<p>C. Beringer, B. Bosma, and B. Robertson, “Detailed Uncertainty Analysis of a Point Absorber Wave Energy Converter Laboratory Test in Irregular Waves,” in Proceedings of the European Wave and Tidal Energy Conference, 2025. Available: https://publications.evolvingcities.org/proc-ewtec/article/view/776</p>
+			<p>&nbsp;</p>
+			<p>Y. Ni et al., “Hydro-real time hybrid simulation framework for floating offshore wind turbine subjected to simultaneous aero-and hydro-dynamics,” presented at the Wind Energy Science Conference, Nantes, France, Jun. 2025.</p>
+			<p>&nbsp;</p>
+			<p>Seki, A., Ni, Y., Gadasi, J., Devin, M., Irmas, C., Zou, S., Haider, A., Harris, J., Bosma, B., Robertson, B., Brekken, T., DuPont, B., Schellenberg A., Lomonaco, P., Simpson, B. 2025. Coupled Aerodynamic and Hydrodynamic Hybrid Simulation of Floating Offshore Wind Turbines, Final Technical Report, Department of Energy (https://www.osti.gov/biblio/2564255)</p>
+			<p>&nbsp;</p>
+			<p>Liu, E., Mcconnel, A., Bosma, B., Ni, Y., Seki, A., Schellenberg, A., Robertson, B., Simpson, B. “A virtual real-time hybrid simulation to study deep-water mooring dynamics of wave energy converters,” University Marine Energy Research Community (UMERC25), Portland, OR.</p>
+			<p>&nbsp;</p>
+			<h3>2024</h3>
+			<p>Q. (张琦) Zhang, C. (蒋长青) Jiang, O. el Moctar, and B. Bosma, “Data-driven modeling and extreme-event analysis of a floating power system with mooring dynamics in random waves,” Phys. Fluids, vol. 36, no. 8, p. 082119, Aug. 2024, doi: 10.1063/5.0220234.</p>
+			<p>&nbsp;</p>
+			<h3>2023</h3>
+			<p>C. M. Strofer et al., “Control co-design and uncertainty analysis of the LUPA’s PTO using WecOptTool,” in Proceedings of the European Wave and Tidal Energy Conference, 2023. Available: https://submissions.ewtec.org/proc-ewtec/article/view/288</p>
+			<p>&nbsp;</p>
+			<p>C. Beringer, B. Bosma, and B. Robertson, “Degrees of Freedom Effects on a Laboratory Scale WEC Point Absorber,” in Proceedings of the European Wave and Tidal Energy Conference, 2023. Available: https://submissions.ewtec.org/proc-ewtec/article/view/380</p>
+			<p>&nbsp;</p>
+			<h3>2021</h3>
+			<p>D. D. Forbush, G. Bacelli, S. J. Spencer, R. G. Coe, B. Bosma, and P. Lomonaco, “Design and testing of a free floating dual flap wave energy converter,” Energy, p. 122485, Nov. 2021, doi: 10.1016/j.energy.2021.122485.</p>
+			<p>&nbsp;</p>
+			<h3>2020</h3>
+			<p>P. Lomonaco et al., “Building Resilient Coastal Communities: The NHERI Experimental Facility for Surge, Wave, and Tsunami Hazards,” Front. Built Environ., vol. 6, 2020, doi: 10.3389/fbuil.2020.579729.</p>
+			<p>&nbsp;</p>
+			<h3>2019</h3>
+			<p>B. A. Ling, B. Bosma, and T. Brekken, “Experimental Validation of Model Predictive Control Applied to the Azura Wave Energy Converter,” IEEE Transactions on Sustainable Energy, pp. 1–1, 2019, doi: 10.1109/TSTE.2019.2953868.</p>
+			<p>&nbsp;</p>
+			<p>P. Lomonaco et al., “Physical model testing of wave impact forces on fixed foundations of offshore wind turbines,” in The 29th International Ocean and Polar Engineering Conference, 2019.</p>
+			<p>&nbsp;</p>
+			<p>R. So, B. Bosma, K. Ruehl, and T. Brekken, “Modeling of a Wave Energy Oscillating Water Column as a Point Absorber Using WEC-Sim,” IEEE Transactions on Sustainable Energy, pp. 1–1, 2019, doi: 10.1109/TSTE.2019.2910467.</p>
+            <p>&nbsp;</p>
+			<h3>2017</h3>
+			<p>R. So, C. Michelen, B. Bosma, P. Lenee-Bluhm, and T. K. A. Brekken, “Statistical Analysis of a 1:7 Scale Field Test Wave Energy Converter Using WEC-Sim,” IEEE Trans. Sustain. Energy, vol. 8, no. 3, pp. 1118–1126, Jul. 2017.</p>
+            <p>&nbsp;</p>			
+			<p>C. Sharp, B. DuPont, B. Bosma, P. Lomonaco, and B. Batten, “Array Optimization of Fixed Oscillating Water Columns for Active Device Control,” in Proceedings of the Twelfth European Wave and Tidal Energy Conference, University College Cork, Ireland, 2017</p>
+            <p>&nbsp;</p>
+			<h3>2016</h3>
+			<p>K. Ruehl, C. Michelen, B. Bosma, and Y.-H. Yu, “WEC-Sim Phase 1 Validation Testing: Numerical Modeling of Experiments,” in ASME 2016 35th International Conference on Ocean, Offshore and Arctic Engineering, 2016, p. V006T09A026-V006T09A026.</p>
+            <p>&nbsp;</p>
+			<p>S. Sirnivas, Y.-H. Yu, M. Hall, and B. Bosma, “Coupled Mooring Analyses for the WEC-Sim Wave Energy Converter Design Tool,” in ASME 2016 35th International Conference on Ocean, Offshore and Arctic Engineering, 2016, p. V006T09A023-V006T09A023.</p>
+			<p>&nbsp;</p>
+			<h3>2014</h3>
+			<p>P. Casaubieilh, F. Thiebaut, B. Bosma, C. Retzler, M. Shaw, Y. Letertre, and W. Sheng, “Performance improvements of mooring systems for wave energy converters,” in 1st International Conference on Renewable Energies Offshore, Lisbon, Portugal, 2014.</p>
+            <p>&nbsp;</p>
+            <p>T. M. Lewis, B. Bosma, A. von Jouanne, and T. K. A. Brekken, “Wave lab testing of a two-body autonomous wave energy converter,” in 2014 IEEE Energy Conversion Congress and Exposition (ECCE), 2014, pp. 1866–1873.</p>
+            <p>&nbsp; </p>
+			<h3>2013</h3>
+            <p>K. Ruehl, R. Paasch, T. K. Brekken, and B. Bosma, “Wave Energy Converter Design Tool for Point Absorbers with Arbitrary Device Geometry,” in The Twenty-third International Offshore and Polar Engineering Conference, 2013.</p>
+            <p>&nbsp; </p>
+            <p>M. Tavakoli, T.K.A. Brekken, B. Bosma, A. Schacher, “A Programmable Mooring Controller for Tank Testing of Scaled Wave Energy Converters,” in Power Energy Society General Meeting, 2013. PES  ’13. IEEE, 2013.</p>
+            <p>&nbsp;</p>
+            <p>T. Lewis, B. Bosma, A. von Jouanne, T. Brekken, “Modeling of a Two-Body Wave Energy Converter Driven by Spectral JONSWAP Waves,” in 2013 IEEE Energy Conversion Congress and Exposition (ECCE), 2013.</p>
+            <p>&nbsp;</p>
+			<h3>2010</h3>
+            <p>K. Ruehl, T. K. A. Brekken, B. Bosma, and R. Paasch, “Large-scale ocean wave energy plant modeling,” in Innovative Technologies for an Efficient and Reliable Electricity Supply (CITRES), 2010 IEEE Conference on, 2010, pp. 379–386.<br />
+              <strong>Best Paper Award</strong><br />
+            </p>           
+            </div>
+        </div>
+      <!--<p>Download CV pdf here: <a href="Bret Bosma CV 2015.pdf">Bret Bosma CV.pdf</a></p> -->
+      </div>
 </div>
 ```
