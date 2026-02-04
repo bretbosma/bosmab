@@ -4,6 +4,9 @@ project:
 
 website:
   title: "Bret Bosma Research"
+  site-url: https://bretbosma.github.io/bosmab/
+  search: false
+  
   navbar:
     right:
       - href: index.qmd
