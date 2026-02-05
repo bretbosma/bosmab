@@ -6,7 +6,7 @@ website:
   title: "Bret Bosma Research"
   site-url: https://bretbosma.github.io/bosmab/
   search: false
-  favicon: favicon.ico
+  favicon: favicon.png
   navbar:
     id: top-nav
     pinned: true
