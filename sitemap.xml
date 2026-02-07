@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bretbosma.github.io/bosmab/blog.html</loc>
-    <lastmod>2026-02-07T00:16:15.881Z</lastmod>
+    <lastmod>2026-02-07T00:49:47.156Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/posts/welcome.html</loc>
-    <lastmod>2026-02-07T00:16:15.898Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/index.html</loc>
-    <lastmod>2026-02-07T00:16:15.898Z</lastmod>
+    <lastmod>2026-02-07T00:49:47.174Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/posts/visualisation.html</loc>
-    <lastmod>2026-02-07T00:16:15.898Z</lastmod>
+    <lastmod>2026-02-07T00:49:47.174Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/index.html</loc>
+    <lastmod>2026-02-07T00:49:47.173Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/TEAMERScour.html</loc>
+    <lastmod>2026-02-07T00:49:47.173Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/pubs.html</loc>
-    <lastmod>2026-02-07T00:16:15.902Z</lastmod>
+    <lastmod>2026-02-07T00:49:47.178Z</lastmod>
   </url>
 </urlset>
