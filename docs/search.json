@@ -25,7 +25,7 @@
     "href": "blog.html",
     "title": "Bret Bosma Research Blog",
     "section": "",
-    "text": "Simple Visualisation\n\n\n\nML\n\n\n\n\n\n\n\n\n\nJan 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\nWelcome Post\n\n\n\n\n\nJan 6, 2026\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
+    "text": "TEAMERScour\n\n\n\nFOSWEC2\n\n\n\nFOSWEC testing in the flume\n\n\n\n\n\nFeb 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSimple Visualisation\n\n\n\nML\n\n\n\n\n\n\n\n\n\nJan 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\nWelcome Post\n\n\n\n\n\nJan 6, 2026\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -40,5 +40,12 @@
     "title": "Welcome",
     "section": "",
     "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
+  },
+  {
+    "objectID": "posts/TEAMERScour.html",
+    "href": "posts/TEAMERScour.html",
+    "title": "TEAMERScour",
+    "section": "",
+    "text": "TEAMERScour is a scour project in the flume with a sandpit and FOSWEC with the applicant a PhD student from the University of Porto, Portugal.\nDuration: 12/29/2025 - 2/13/2026\nFacility: Large Wave Flume\nGoals:\n\ncomparisons of scour patterns for different protections\n\njust sand\ncylinder\nFOSWEC\n\nactive -fixed\n\n\n\n\n\n\nFOSWECinFlume"
   }
 ]

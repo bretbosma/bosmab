@@ -9,21 +9,23 @@ date: "2/6/2026"
 ---
 
 
-# TEAMERScour
-
 **TEAMERScour** is a scour project in the flume with a sandpit and FOSWEC with the applicant a PhD student from the University of Porto, Portugal.
 
 Duration: 12/29/2025 - 2/13/2026
 
+Facility: Large Wave Flume
+
 Goals:
-- comparisons of scour patterns for different protections
-    - just sand
-    - cylinder
-    - FOSWEC
+
+* comparisons of scour patterns for different protections
+    + just sand
+    + cylinder
+    + different protections
+    + FOSWEC
         - active
-        -fixed
+        - fixed
 
-
+![FOSWECinFlume](TEAMERScour_FOSWEC.png)
 
 
 
