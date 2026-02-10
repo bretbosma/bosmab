@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bretbosma.github.io/bosmab/blog.html</loc>
-    <lastmod>2026-02-10T01:36:14.045Z</lastmod>
+    <lastmod>2026-02-10T02:12:27.389Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/posts/welcome.html</loc>
-    <lastmod>2026-02-10T01:36:14.068Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/visualisation.html</loc>
-    <lastmod>2026-02-10T01:36:14.068Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/index.html</loc>
-    <lastmod>2026-02-10T01:36:14.065Z</lastmod>
+    <lastmod>2026-02-10T02:12:27.418Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/posts/TEAMERScour.html</loc>
-    <lastmod>2026-02-10T01:36:14.065Z</lastmod>
+    <lastmod>2026-02-10T02:12:27.412Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/index.html</loc>
+    <lastmod>2026-02-10T02:12:27.412Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/visualisation.html</loc>
+    <lastmod>2026-02-10T02:12:27.418Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/WEC-Bench.html</loc>
+    <lastmod>2026-02-10T02:12:27.415Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/pubs.html</loc>
-    <lastmod>2026-02-10T01:36:14.072Z</lastmod>
+    <lastmod>2026-02-10T02:12:27.422Z</lastmod>
   </url>
 </urlset>

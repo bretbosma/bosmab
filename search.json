@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Bret Bosma Research Blog",
     "section": "",
-    "text": "TEAMERScour\n\n\n\nFOSWEC2\n\n\n\nFOSWEC testing in the flume\n\n\n\n\n\nFeb 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSimple Visualisation\n\n\n\nML\n\n\n\n\n\n\n\n\n\nJan 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\nWelcome Post\n\n\n\n\n\nJan 6, 2026\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
+    "text": "WEC-Bench\n\n\n\nWEC-Bench\n\n\n\nIntial checkout for the WEC-Bench facility\n\n\n\n\n\nFeb 9, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERScour\n\n\n\nFOSWEC2\n\n\n\nFOSWEC testing in the flume\n\n\n\n\n\nFeb 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSimple Visualisation\n\n\n\nML\n\n\n\n\n\n\n\n\n\nJan 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\nWelcome Post\n\n\n\n\n\nJan 6, 2026\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome.html",
@@ -14,11 +14,11 @@
     "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
   },
   {
-    "objectID": "posts/visualisation.html",
-    "href": "posts/visualisation.html",
-    "title": "Simple Visualisation",
+    "objectID": "posts/TEAMERScour.html",
+    "href": "posts/TEAMERScour.html",
+    "title": "TEAMERScour",
     "section": "",
-    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
+    "text": "TEAMERScour is a scour project in the flume with a sandpit and FOSWEC with the applicant a PhD student from the University of Porto, Portugal.\nDuration: 12/29/2025 - 2/13/2026\nFacility: Large Wave Flume\nWave Condition: H = 0.5 m, T = 3.2 s, Jonswap\nGoals:\n\ncomparisons of scour patterns for different protections\n\njust sand\ncylinder\ndifferent protections\nFOSWEC\n\nactive\nfixed\n\n\n\n\n\n\nFOSWECinFlume"
   },
   {
     "objectID": "index.html",
@@ -28,11 +28,18 @@
     "text": "Physical and numerical modeling of ocean wave energy converters at the O.H. Hinsdale Wave Research Laboratory.\n \n  \n   \n  \n    \n     GitHub"
   },
   {
-    "objectID": "posts/TEAMERScour.html",
-    "href": "posts/TEAMERScour.html",
-    "title": "TEAMERScour",
+    "objectID": "posts/visualisation.html",
+    "href": "posts/visualisation.html",
+    "title": "Simple Visualisation",
     "section": "",
-    "text": "TEAMERScour is a scour project in the flume with a sandpit and FOSWEC with the applicant a PhD student from the University of Porto, Portugal.\nDuration: 12/29/2025 - 2/13/2026\nFacility: Large Wave Flume\nWave Condition: H = 0.5 m, T = 3.2 s, Jonswap\nGoals:\n\ncomparisons of scour patterns for different protections\n\njust sand\ncylinder\ndifferent protections\nFOSWEC\n\nactive\nfixed\n\n\n\n\n\n\nFOSWECinFlume"
+    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
+  },
+  {
+    "objectID": "posts/WEC-Bench.html",
+    "href": "posts/WEC-Bench.html",
+    "title": "WEC-Bench",
+    "section": "",
+    "text": "WECBench is the initial checkout of the new PMEC facility funded under the IIJA grant. First application was a checkout of the LUPA PTO configured for the mCDR project. Charging of the supercapacitor bank from 150V to 300V.\nDuration: 2025 - 2026\nFacility: PMEC Laboratory WEC-Bench\nConditions tested: amplitude = 90 deg period = 1.8 s and 225 deg, T = 2.5 s\nGoals:\n\nCheckout of DC power supply, power analyzer, and charging of capacitor bank with generator\n\nEfficiency\n\ncomparing average power at different stages of the conversion chain\n\nSankey diagrams\n\n\n\n\n\nWECBench mCDR"
   },
   {
     "objectID": "pubs.html",
