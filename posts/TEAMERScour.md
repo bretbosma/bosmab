@@ -14,6 +14,7 @@ date: "2/6/2026"
 Duration: 12/29/2025 - 2/13/2026
 
 Facility: Large Wave Flume
+Wave Condition: H = 0.5 m, T = 3.2 s, Jonswap
 
 Goals:
 
