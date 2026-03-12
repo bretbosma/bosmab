@@ -78,6 +78,8 @@ subtitle: ""
 			<p>&nbsp;</p>
 			<p>Liu, E., Mcconnel, A., Bosma, B., Ni, Y., Seki, A., Schellenberg, A., Robertson, B., Simpson, B. “A virtual real-time hybrid simulation to study deep-water mooring dynamics of wave energy converters,” University Marine Energy Research Community (UMERC25), Portland, OR.</p>
 			<p>&nbsp;</p>
+			<p>Zou, S.; Subramanian, A.; Bosma, B.; Lou, J.; Beringer, C.; Robertson, B.; Lomonaco, P. (2025). Experimental Validation and Analysis of Deep Reinforcement Learning Control for Wave Energy Converters [Presentation]. Presented at OREC/UMERC 2025 Conference, Corvallis, United States of America.</p>
+			<p>&nbsp;</p>
 			<h3>2024</h3>
 			<p>Q. (张琦) Zhang, C. (蒋长青) Jiang, O. el Moctar, and B. Bosma, “Data-driven modeling and extreme-event analysis of a floating power system with mooring dynamics in random waves,” Phys. Fluids, vol. 36, no. 8, p. 082119, Aug. 2024, doi: 10.1063/5.0220234.</p>
 			<p>&nbsp;</p>
