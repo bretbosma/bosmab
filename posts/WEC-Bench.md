@@ -24,7 +24,7 @@ Goals:
         - comparing average power at different stages of the conversion chain
     + Sankey diagrams
 
-![WECBench mCDR](WECBench_mCDR.png)
+![WECBench](WEC-Bench.png)
 
 
 
