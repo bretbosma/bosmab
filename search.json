@@ -14,11 +14,11 @@
     "text": "TEAMERScour is a scour project in the flume with a sandpit and FOSWEC with the applicant a PhD student from the University of Porto, Portugal.\nDuration: 12/29/2025 - 2/13/2026\nFacility: Large Wave Flume\nWave Condition: H = 0.5 m, T = 3.2 s, Jonswap\nGoals:\n\ncomparisons of scour patterns for different protections\n\njust sand\ncylinder\ndifferent protections\nFOSWEC\n\nactive\nfixed\n\n\n\n\n\n\nFOSWECinFlume"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Bret Bosma Research Blog",
+    "objectID": "posts/WEC-Bench_mCDR.html",
+    "href": "posts/WEC-Bench_mCDR.html",
+    "title": "WEC-Bench mCDR",
     "section": "",
-    "text": "SubWEC_WESRF2\n\n\n\nSubWEC\n\nWESRF\n\n\n\nWESRF testing of SubWEC PTO unit\n\n\n\n\n\nMar 5, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWEC-Bench\n\n\n\nWEC-Bench\n\n\n\nIntial checkout for the WEC-Bench facility\n\n\n\n\n\nFeb 9, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERScour\n\n\n\nFOSWEC2\n\n\n\nFOSWEC testing in the flume\n\n\n\n\n\nFeb 6, 2026\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
+    "text": "WECBench mCDR Testing of the complete mCDR system to be deployed on LUPA. Combined testing of Generator, drive, supercapacitor bank, charge controller, battery, buck conveter, and dummy load.\nDuration: Winter 2025 - Spring 2026\nFacility: PMEC Laboratory WEC-Bench & LUPA motor and power electronics\nConditions tested: various amplitudes and periods\nGoals:\n\nCheckout of supercapacitor bank, charge controller, battery, buck converter, and dummy load\n\nProcess for saving charge controller data\nMeasurement of power into load (current shunt and voltage measurements)\nDummy resistor tested with 5 V, ~4 A, ~20 W\n\n\n\n\n\nWECBench mCDR"
   },
   {
     "objectID": "index.html",
@@ -28,11 +28,18 @@
     "text": "Physical and numerical modeling of ocean wave energy converters at the O.H. Hinsdale Wave Research Laboratory.\n \n  \n   \n  \n    \n     GitHub"
   },
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Bret Bosma Research Blog",
+    "section": "",
+    "text": "WEC-Bench mCDR\n\n\n\nWEC-Bench\n\nmCDR\n\n\n\nmCDR system testing\n\n\n\n\n\nMar 17, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSubWEC_WESRF2\n\n\n\nSubWEC\n\nWESRF\n\n\n\nWESRF testing of SubWEC PTO unit\n\n\n\n\n\nMar 5, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWEC-Bench\n\n\n\nWEC-Bench\n\n\n\nIntial checkout for the WEC-Bench facility\n\n\n\n\n\nFeb 9, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERScour\n\n\n\nFOSWEC2\n\n\n\nFOSWEC testing in the flume\n\n\n\n\n\nFeb 6, 2026\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/WEC-Bench.html",
     "href": "posts/WEC-Bench.html",
     "title": "WEC-Bench",
     "section": "",
-    "text": "WECBench is the initial checkout of the new PMEC facility funded under the IIJA grant. First application was a checkout of the LUPA PTO configured for the mCDR project. Charging of the supercapacitor bank from 150V to 300V.\nDuration: 2025 - 2026\nFacility: PMEC Laboratory WEC-Bench\nConditions tested: amplitude = 90 deg period = 1.8 s and 225 deg, T = 2.5 s\nGoals:\n\nCheckout of DC power supply, power analyzer, and charging of capacitor bank with generator\n\nEfficiency\n\ncomparing average power at different stages of the conversion chain\n\nSankey diagrams\n\n\n\n\n\nWECBench mCDR"
+    "text": "WECBench is the initial checkout of the new PMEC facility funded under the IIJA grant. First application was a checkout of the LUPA PTO configured for the mCDR project. Charging of the supercapacitor bank from 150V to 300V.\nDuration: 2025 - 2026\nFacility: PMEC Laboratory WEC-Bench\nConditions tested: amplitude = 90 deg period = 1.8 s and 225 deg, T = 2.5 s\nGoals:\n\nCheckout of DC power supply, power analyzer, and charging of capacitor bank with generator\n\nEfficiency\n\ncomparing average power at different stages of the conversion chain\n\nSankey diagrams\n\n\n\n\n\nWECBench"
   },
   {
     "objectID": "posts/SubWEC_WESRF2.html",
