@@ -6,6 +6,7 @@ badges: true
 categories:
 - WECAUV
 - Linear Actuator
+- Large Wave Flume
 date: "10/10/2025"
 ---
 
