@@ -25,7 +25,7 @@
     "href": "blog.html",
     "title": "Bret Bosma Research Blog",
     "section": "",
-    "text": "WEC-Bench mCDR\n\n\n\nWEC-Bench\n\nmCDR\n\n\n\nWEC-Bench mCDR system testing\n\n\n\n\n\nMar 17, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSubWEC_WESRF2\n\n\n\nSubWEC\n\nWESRF\n\n\n\nWESRF testing of SubWEC PTO unit\n\n\n\n\n\nMar 5, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWEC-Bench\n\n\n\nWEC-Bench\n\n\n\nIntial checkout for the WEC-Bench facility\n\n\n\n\n\nFeb 9, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERScour\n\n\n\nFOSWEC2\n\n\n\nFOSWEC testing in the flume\n\n\n\n\n\nFeb 6, 2026\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
+    "text": "WEC-Bench mCDR\n\n\n\nWEC-Bench\n\nmCDR\n\n\n\nmCDR system testing\n\n\n\n\n\nMar 17, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSubWEC_WESRF2\n\n\n\nSubWEC\n\nWESRF\n\n\n\nWESRF testing of SubWEC PTO unit\n\n\n\n\n\nMar 5, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWEC-Bench\n\n\n\nWEC-Bench\n\n\n\nIntial checkout for the WEC-Bench facility\n\n\n\n\n\nFeb 9, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERScour\n\n\n\nFOSWEC2\n\n\n\nFOSWEC testing in the flume\n\n\n\n\n\nFeb 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWECAUV4\n\n\n\nWECAUV\n\nLinear Actuator\n\n\n\nWECAUV dock testing with linear actuator\n\n\n\n\n\nOct 10, 2025\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -68,5 +68,12 @@
     "title": "SubWEC_WESRF2",
     "section": "",
     "text": "SubWEC_WESRF2 is a test campaign in the WESRF laboratory on the Linear Test Bed(LTB). Students Inyong Kim and Tanvir Alam Shifat are testing real time control algorithms related to WEC control and LTB control.\nDuration: 3/2026-?\nFacility: WESRF Linear Test Bed\nGoals:\n\nReal-time control of Linear Test Bed integrating WEC-Sim\nReal-time control of WEC PTO with dynamic damping control\n\n\n\n\nSubWEC_WESRF2"
+  },
+  {
+    "objectID": "posts/WECAUV4.html",
+    "href": "posts/WECAUV4.html",
+    "title": "WECAUV4",
+    "section": "",
+    "text": "WECAUV4 is a project demonstrating docking of an AUV in the large wave flume as well as real time control of an actuator simulating the motions of a WEC.\nDuration: October 2025\nFacility: Large Wave Flume; Linear Actuator; AUV\nConditions tested: regular, random, and no wave cases\nGoals:\n\nCheckout of linear acuator control system for mimicing WEC motion under various wave conditions\n\nWEC-AUV docking\n\nDocking excercises under various wave conditions\n\n\n\n\n\n\nWECAUV4"
   }
 ]
