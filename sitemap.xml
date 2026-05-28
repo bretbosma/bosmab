@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://bretbosma.github.io/bosmab/index.html</loc>
-    <lastmod>2026-04-21T20:57:24.558Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/WECAUV4.html</loc>
-    <lastmod>2026-04-21T20:57:24.564Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/TEAMERScour.html</loc>
-    <lastmod>2026-04-21T20:57:24.560Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/pubs.html</loc>
-    <lastmod>2026-04-21T20:57:24.572Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/blog.html</loc>
-    <lastmod>2026-04-21T20:57:24.531Z</lastmod>
+    <loc>https://bretbosma.github.io/bosmab/posts/WEC-Bench_mCDR.html</loc>
+    <lastmod>2026-05-28T16:22:37.386Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/posts/WEC-Bench.html</loc>
-    <lastmod>2026-04-21T20:57:24.562Z</lastmod>
+    <lastmod>2026-05-28T16:22:37.384Z</lastmod>
   </url>
   <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/WEC-Bench_mCDR.html</loc>
-    <lastmod>2026-04-21T20:57:24.564Z</lastmod>
+    <loc>https://bretbosma.github.io/bosmab/posts/TEAMERScour.html</loc>
+    <lastmod>2026-05-28T16:22:37.382Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/index.html</loc>
+    <lastmod>2026-05-28T16:22:37.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/blog.html</loc>
+    <lastmod>2026-05-28T16:22:37.356Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/pubs.html</loc>
+    <lastmod>2026-05-28T16:22:37.397Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/WECAUV4.html</loc>
+    <lastmod>2026-05-28T16:22:37.386Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/posts/SubWEC_WESRF2.html</loc>
-    <lastmod>2026-04-21T20:57:24.558Z</lastmod>
+    <lastmod>2026-05-28T16:22:37.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/mCDRLUPA8.html</loc>
+    <lastmod>2026-05-28T16:22:37.389Z</lastmod>
   </url>
 </urlset>
