@@ -4,7 +4,7 @@ description: "mCDR wave tank testing"
 author: "Bret Bosma"
 badges: true
 categories:
-- LWF
+- Large Wave Flume
 - mCDR
 date: "5/28/2026"
 ---
