@@ -6,11 +6,11 @@ badges: true
 categories:
 - FOSWEC
 - Swing
-date: "9/15/2025"
+date: "8/28/2025"
 ---
 
 
-**UHFOSWEC** is a project demonstrating FOSWEC as a submerged WEC in the Large Wave Flume.  Depths of submergence was controled with a three point tension mooring system
+**UHDryFOSWEC** is a project demonstrating static and swing tests on FOSWEC.  Load cells on swing lines used to determine mass properties.  Swing tests used to estimate moments of inertia. 
 
 Duration: August 2025
 
