@@ -4,7 +4,7 @@ description: "FOSWEC testing in the flume"
 author: "Bret Bosma"
 badges: true
 categories:
-- FOSWEC2
+- FOSWEC
 - Large Wave Flume
 date: "2/6/2026"
 ---
