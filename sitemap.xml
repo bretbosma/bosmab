@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/WEC-Bench_mCDR.html</loc>
-    <lastmod>2026-05-28T16:27:55.599Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/WEC-Bench.html</loc>
-    <lastmod>2026-05-28T16:27:55.597Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/TEAMERScour.html</loc>
-    <lastmod>2026-05-28T16:27:55.595Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/index.html</loc>
-    <lastmod>2026-05-28T16:27:55.593Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/blog.html</loc>
-    <lastmod>2026-05-28T16:27:55.564Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/pubs.html</loc>
-    <lastmod>2026-05-28T16:27:55.613Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/WECAUV4.html</loc>
-    <lastmod>2026-05-28T16:27:55.599Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/SubWEC_WESRF2.html</loc>
-    <lastmod>2026-05-28T16:27:55.593Z</lastmod>
+    <loc>https://bretbosma.github.io/bosmab/posts/UHFOSWEC.html</loc>
+    <lastmod>2026-05-29T15:19:10.858Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/posts/mCDRLUPA8.html</loc>
-    <lastmod>2026-05-28T16:27:55.604Z</lastmod>
+    <lastmod>2026-05-29T15:19:10.867Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/SubWEC_WESRF2.html</loc>
+    <lastmod>2026-05-29T15:19:10.854Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/WECAUV4.html</loc>
+    <lastmod>2026-05-29T15:19:10.863Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/pubs.html</loc>
+    <lastmod>2026-05-29T15:19:10.875Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/blog.html</loc>
+    <lastmod>2026-05-29T15:19:10.827Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/index.html</loc>
+    <lastmod>2026-05-29T15:19:10.854Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/TEAMERScour.html</loc>
+    <lastmod>2026-05-29T15:19:10.856Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/WEC-Bench.html</loc>
+    <lastmod>2026-05-29T15:19:10.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/WEC-Bench_mCDR.html</loc>
+    <lastmod>2026-05-29T15:19:10.863Z</lastmod>
   </url>
 </urlset>
