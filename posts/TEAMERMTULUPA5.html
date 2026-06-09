@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Bret Bosma">
+<meta name="dcterms.date" content="2025-02-18">
+<meta name="description" content="LUPA reinforcement learning testing in the flume">
 
-<title>Bret Bosma Research Blog – Bret Bosma Research</title>
+<title>TEAMERMTULUPA5 – Bret Bosma Research</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,25 +29,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="./favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bbb921d496c3e76984881950bc7b1b8f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-ea902b52dc00aecac65d0ee5b50ff13b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-bbb921d496c3e76984881950bc7b1b8f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-bbb921d496c3e76984881950bc7b1b8f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-ea902b52dc00aecac65d0ee5b50ff13b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-bbb921d496c3e76984881950bc7b1b8f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -60,69 +61,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -300,7 +243,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Bret Bosma Research</span>
     </a>
   </div>
@@ -310,19 +253,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./bretbosma2026cv.pdf" target="_blank"> 
+    <a class="nav-link" href="../bretbosma2026cv.pdf" target="_blank"> 
 <span class="menu-text">cv</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pubs.html"> 
+    <a class="nav-link" href="../pubs.html"> 
 <span class="menu-text">pubs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -337,23 +280,42 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Rk9TV0VD">FOSWEC <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TGFyZ2UlMjBXYXZlJTIwRmx1bWU=">Large Wave Flume <span class="quarto-category-count">(5)</span></div><div class="category" data-category="TGluZWFyJTIwQWN0dWF0b3I=">Linear Actuator <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TFVQQQ==">LUPA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bUNEUg==">mCDR <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U3ViV0VD">SubWEC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3dpbmc=">Swing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVuc2lvbiUyME1vb3Jpbmc=">Tension Mooring <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V0VDLUJlbmNo">WEC-Bench <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V0VDQVVW">WECAUV <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V0VTUkY=">WESRF <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bret Bosma Research Blog</h1>
-</div>
+<h1 class="title">TEAMERMTULUPA5</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">LUPA</div>
+    <div class="quarto-category">Large Wave Flume</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    LUPA reinforcement learning testing in the flume
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Bret Bosma </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 18, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -363,305 +325,25 @@ window.Quarto = {
 </header>
 
 
+<p><strong>TEAMERMTULUPA5</strong> is a project using deep reinforcement learning to optimize power output from the LUPA device.</p>
+<p>Applicant: Shangyan Zou - Michigan Tech University</p>
+<p>Duration: Winter 2025-2026</p>
+<p>Facility: Large Wave Flume</p>
+<p>Wave Condition: Regular and random waves</p>
+<p>Goals:</p>
+<ul>
+<li>Deep reinforcement learning algorithm applied to LUPA to maximize power generation</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="TEAMERMTULUPA5.png" class="img-fluid figure-img"></p>
+<figcaption>FOSWECinFlume</figcaption>
+</figure>
+</div>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TGFyZ2UlMjBXYXZlJTIwRmx1bWUlMkNtQ0RS" data-listing-date-sort="1779926400000" data-listing-file-modified-sort="1781038500290" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
-<div class="thumbnail"><a href="./posts/mCDRLUPA8.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="posts/mCDRLUPA8.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/mCDRLUPA8.html" class="no-external">mCDRLUPA8</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFyZ2UlMjBXYXZlJTIwRmx1bWU='); return false;">Large Wave Flume</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bUNEUg=='); return false;">mCDR</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/mCDRLUPA8.html" class="no-external">
-<p>mCDR wave tank testing</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/mCDRLUPA8.html" class="no-external">
-<div class="listing-date">
-May 28, 2026
-</div>
-<div class="listing-author">
-Bret Bosma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="V0VDLUJlbmNoJTJDbUNEUg==" data-listing-date-sort="1773705600000" data-listing-file-modified-sort="1781038500285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
-<div class="thumbnail"><a href="./posts/WEC-Bench_mCDR.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="posts/WECBench_mCDR.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/WEC-Bench_mCDR.html" class="no-external">WEC-Bench mCDR</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('V0VDLUJlbmNo'); return false;">WEC-Bench</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bUNEUg=='); return false;">mCDR</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/WEC-Bench_mCDR.html" class="no-external">
-<p>mCDR system testing</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/WEC-Bench_mCDR.html" class="no-external">
-<div class="listing-date">
-Mar 17, 2026
-</div>
-<div class="listing-author">
-Bret Bosma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="U3ViV0VDJTJDV0VTUkY=" data-listing-date-sort="1772668800000" data-listing-file-modified-sort="1781038500272" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
-<div class="thumbnail"><a href="./posts/SubWEC_WESRF2.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="posts/SubWEC_WESRF2.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/SubWEC_WESRF2.html" class="no-external">SubWEC_WESRF2</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U3ViV0VD'); return false;">SubWEC</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V0VTUkY='); return false;">WESRF</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/SubWEC_WESRF2.html" class="no-external">
-<p>WESRF testing of SubWEC PTO unit</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/SubWEC_WESRF2.html" class="no-external">
-<div class="listing-date">
-Mar 5, 2026
-</div>
-<div class="listing-author">
-Bret Bosma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="V0VDLUJlbmNo" data-listing-date-sort="1770595200000" data-listing-file-modified-sort="1781038500284" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
-<div class="thumbnail"><a href="./posts/WEC-Bench.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="posts/WEC-Bench.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/WEC-Bench.html" class="no-external">WEC-Bench</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('V0VDLUJlbmNo'); return false;">WEC-Bench</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/WEC-Bench.html" class="no-external">
-<p>Intial checkout for the WEC-Bench facility</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/WEC-Bench.html" class="no-external">
-<div class="listing-date">
-Feb 9, 2026
-</div>
-<div class="listing-author">
-Bret Bosma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Rk9TV0VDJTJDTGFyZ2UlMjBXYXZlJTIwRmx1bWU=" data-listing-date-sort="1770336000000" data-listing-file-modified-sort="1781038500277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
-<div class="thumbnail"><a href="./posts/TEAMERScour.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="posts/TEAMERScour_FOSWEC.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/TEAMERScour.html" class="no-external">TEAMERScour</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Rk9TV0VD'); return false;">FOSWEC</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFyZ2UlMjBXYXZlJTIwRmx1bWU='); return false;">Large Wave Flume</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/TEAMERScour.html" class="no-external">
-<p>FOSWEC testing in the flume</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/TEAMERScour.html" class="no-external">
-<div class="listing-date">
-Feb 6, 2026
-</div>
-<div class="listing-author">
-Bret Bosma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="V0VDQVVWJTJDTGluZWFyJTIwQWN0dWF0b3IlMkNMYXJnZSUyMFdhdmUlMjBGbHVtZQ==" data-listing-date-sort="1760054400000" data-listing-file-modified-sort="1781038500285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
-<div class="thumbnail"><a href="./posts/WECAUV4.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="posts/WECauv4.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/WECAUV4.html" class="no-external">WECAUV4</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('V0VDQVVW'); return false;">WECAUV</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGluZWFyJTIwQWN0dWF0b3I='); return false;">Linear Actuator</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFyZ2UlMjBXYXZlJTIwRmx1bWU='); return false;">Large Wave Flume</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/WECAUV4.html" class="no-external">
-<p>WECAUV dock testing with linear actuator</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/WECAUV4.html" class="no-external">
-<div class="listing-date">
-Oct 10, 2025
-</div>
-<div class="listing-author">
-Bret Bosma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="Rk9TV0VDJTJDTGFyZ2UlMjBXYXZlJTIwRmx1bWUlMkNUZW5zaW9uJTIwTW9vcmluZw==" data-listing-date-sort="1757894400000" data-listing-file-modified-sort="1781038500281" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
-<div class="thumbnail"><a href="./posts/UHFOSWEC.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="posts/UHFOSWEC.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/UHFOSWEC.html" class="no-external">UHFOSWEC</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Rk9TV0VD'); return false;">FOSWEC</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFyZ2UlMjBXYXZlJTIwRmx1bWU='); return false;">Large Wave Flume</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVuc2lvbiUyME1vb3Jpbmc='); return false;">Tension Mooring</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/UHFOSWEC.html" class="no-external">
-<p>UHFOSWEC Submerged Tension Moored Testing</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/UHFOSWEC.html" class="no-external">
-<div class="listing-date">
-Sep 15, 2025
-</div>
-<div class="listing-author">
-Bret Bosma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="Rk9TV0VDJTJDU3dpbmc=" data-listing-date-sort="1756339200000" data-listing-file-modified-sort="1781038500279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
-<div class="thumbnail"><a href="./posts/UHDryFOSWEC.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="posts/UHDryFOSWEC.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/UHDryFOSWEC.html" class="no-external">UHDryFOSWEC</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Rk9TV0VD'); return false;">FOSWEC</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U3dpbmc='); return false;">Swing</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/UHDryFOSWEC.html" class="no-external">
-<p>UHDryFOSWEC Swing Tests</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/UHDryFOSWEC.html" class="no-external">
-<div class="listing-date">
-Aug 28, 2025
-</div>
-<div class="listing-author">
-Bret Bosma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="TFVQQSUyQ0xhcmdlJTIwV2F2ZSUyMEZsdW1l" data-listing-date-sort="1739836800000" data-listing-file-modified-sort="1781038500275" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
-<div class="thumbnail"><a href="./posts/TEAMERMTULUPA5.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="posts/TEAMERMTULUPA5.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/TEAMERMTULUPA5.html" class="no-external">TEAMERMTULUPA5</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TFVQQQ=='); return false;">LUPA</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFyZ2UlMjBXYXZlJTIwRmx1bWU='); return false;">Large Wave Flume</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/TEAMERMTULUPA5.html" class="no-external">
-<p>LUPA reinforcement learning testing in the flume</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/TEAMERMTULUPA5.html" class="no-external">
-<div class="listing-date">
-Feb 18, 2025
-</div>
-<div class="listing-author">
-Bret Bosma
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
