@@ -6,6 +6,7 @@ badges: true
 categories:
 - LUPA
 - Large Wave Flume
+- Control
 date: "2/18/2025"
 ---
 

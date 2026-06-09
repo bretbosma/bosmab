@@ -6,6 +6,8 @@ badges: true
 categories:
 - Large Wave Flume
 - mCDR
+- Control
+- Electrical power
 date: "5/28/2026"
 ---
 
