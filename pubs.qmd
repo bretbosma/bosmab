@@ -56,6 +56,8 @@ subtitle: ""
 			</div>
 			<div class="yui-u">
             <h3 class="anchored">2026</h3>
+			<p>A. Seki et al., “Computational capacity in hydrodynamic real-time hybrid simulation applied to simulate the dynamic response of floating offshore wind turbines,” Wind Energy Eng. Res., vol. 6, p. 100037, Dec. 2026, doi: 10.1016/j.weer.2026.100037.</p>
+			<p>&nbsp;</p>
             <p>A. McConnell et al., “Development of a real-time hybrid simulation framework for wave energy converter mooring applications,” Ocean Eng., vol. 362, p. 126498, Jul. 2026, doi: 10.1016/j.oceaneng.2026.126498.</p>
             <p>&nbsp;</p>
 			<p>C. Beringer, B. Bosma, and B. Robertson, “A numerical and experimental study of wave energy converter number of bodies and degrees of freedom,” Renew. Energy, vol. 259, p. 125089, Mar. 2026, doi: 10.1016/j.renene.2025.125089.</p>
