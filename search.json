@@ -42,18 +42,25 @@
     "text": "UHDryFOSWEC is a project demonstrating static and swing tests on FOSWEC. Load cells on swing lines used to determine mass properties. Swing tests used to estimate moments of inertia.\nDuration: August 2025\nFacility: Swing; FOSWEC; Qualisys\nConditions tested: mass properties; moments of inertia\nGoals:\n\nDry test FOSWEC to determine mass properties and moments of inertia\n\nSwing tests using Qualisys motion tracking\n\n\n\n\n\nUHDryFOSWEC"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Bret Bosma Research Blog",
-    "section": "",
-    "text": "SubWEC3\n\n\n\nLarge Wave Flume\n\nSubWEC\n\nControl\n\n\n\nSubWEC shape options\n\n\n\n\n\nJun 26, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nmCDRLUPA8\n\n\n\nLarge Wave Flume\n\nmCDR\n\nControl\n\nElectrical power\n\n\n\nmCDR wave tank testing\n\n\n\n\n\nMay 28, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWEC-Bench mCDR\n\n\n\nWEC-Bench\n\nmCDR\n\n\n\nmCDR system testing\n\n\n\n\n\nMar 17, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSubWEC_WESRF2\n\n\n\nSubWEC\n\nWESRF\n\n\n\nWESRF testing of SubWEC PTO unit\n\n\n\n\n\nMar 5, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWEC-Bench\n\n\n\nWEC-Bench\n\n\n\nIntial checkout for the WEC-Bench facility\n\n\n\n\n\nFeb 9, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERScour\n\n\n\nFOSWEC\n\nLarge Wave Flume\n\n\n\nFOSWEC testing in the flume\n\n\n\n\n\nFeb 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWECAUV4\n\n\n\nWECAUV\n\nLinear Actuator\n\nLarge Wave Flume\n\n\n\nWECAUV dock testing with linear actuator\n\n\n\n\n\nOct 10, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nUHFOSWEC\n\n\n\nFOSWEC\n\nLarge Wave Flume\n\nTension Mooring\n\n\n\nUHFOSWEC Submerged Tension Moored Testing\n\n\n\n\n\nSep 15, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nUHDryFOSWEC\n\n\n\nFOSWEC\n\nSwing\n\n\n\nUHDryFOSWEC Swing Tests\n\n\n\n\n\nAug 28, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERMTULUPA5\n\n\n\nLUPA\n\nLarge Wave Flume\n\nControl\n\n\n\nLUPA reinforcement learning testing in the flume\n\n\n\n\n\nFeb 18, 2025\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/mCDRLUPA8.html",
     "href": "posts/mCDRLUPA8.html",
     "title": "mCDRLUPA8",
     "section": "",
     "text": "mCDRLUPA8 Testing of LUPA in the large wave flume (LWF) with electrolyzer. LUPA charges batteries that suupply power to the electrolyzer.\nDuration: Spring 2026\nFacility: LWF\nConditions tested: Regular and Random waves just charging capacitors and charging batteries\nGoals:\n\nDemonstrate LUPA powering mCDR electrolyzer\n\nCharacterize and find max electrical power conditions for LUPA in the LWF\nDamping sweep finding otpimal damping for electrical power charging capacitors\nTesting of random wave electrical power generation for two Tp values finding max Hs condition\nTest charging of the batteries with charge controller\n\n\n\n\n\nmCDRLUPA8"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Bret Bosma Research Blog",
+    "section": "",
+    "text": "NAVFACOSWECS\n\n\n\nDirectional Wave Basin\n\nElectrical Power Generation\n\nControl\n\n\n\nOSWEC testing OSU and UW\n\n\n\n\n\nJun 29, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSubWEC3\n\n\n\nLarge Wave Flume\n\nSubWEC\n\nControl\n\n\n\nSubWEC shape options\n\n\n\n\n\nJun 26, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nmCDRLUPA8\n\n\n\nLarge Wave Flume\n\nmCDR\n\nControl\n\nElectrical power\n\n\n\nmCDR wave tank testing\n\n\n\n\n\nMay 28, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWEC-Bench mCDR\n\n\n\nWEC-Bench\n\nmCDR\n\n\n\nmCDR system testing\n\n\n\n\n\nMar 17, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSubWEC_WESRF2\n\n\n\nSubWEC\n\nWESRF\n\n\n\nWESRF testing of SubWEC PTO unit\n\n\n\n\n\nMar 5, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWEC-Bench\n\n\n\nWEC-Bench\n\n\n\nIntial checkout for the WEC-Bench facility\n\n\n\n\n\nFeb 9, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERScour\n\n\n\nFOSWEC\n\nLarge Wave Flume\n\n\n\nFOSWEC testing in the flume\n\n\n\n\n\nFeb 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWECAUV4\n\n\n\nWECAUV\n\nLinear Actuator\n\nLarge Wave Flume\n\n\n\nWECAUV dock testing with linear actuator\n\n\n\n\n\nOct 10, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nUHFOSWEC\n\n\n\nFOSWEC\n\nLarge Wave Flume\n\nTension Mooring\n\n\n\nUHFOSWEC Submerged Tension Moored Testing\n\n\n\n\n\nSep 15, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nUHDryFOSWEC\n\n\n\nFOSWEC\n\nSwing\n\n\n\nUHDryFOSWEC Swing Tests\n\n\n\n\n\nAug 28, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERMTULUPA5\n\n\n\nLUPA\n\nLarge Wave Flume\n\nControl\n\n\n\nLUPA reinforcement learning testing in the flume\n\n\n\n\n\nFeb 18, 2025\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/NAVFACOSWECS.html",
+    "href": "posts/NAVFACOSWECS.html",
+    "title": "NAVFACOSWECS",
+    "section": "",
+    "text": "NAVFACOSWECS Testing of FOSWEC in the directional wave basin (DWB). First tested UW OSWEC, then fixed FOSWEC at different platform angles to simulate beach slopes, three water depths, and regular and random waves.\nDuration: Summer 2026\nFacility: DWB\nConditions tested: Regular and Random waves\nGoals:\n\nOSU - record mechanical and electrical power generation\nOSU - test impact of water depth on power production\nOSU - test impact of inclination on power production\nOSU - test impact of wave conditions on power production\n\n\n\n\nNAVFACOSWECS"
   },
   {
     "objectID": "posts/TEAMERMTULUPA5.html",
