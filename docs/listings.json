@@ -2,11 +2,16 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/SubWEC3.html",
+      "/posts/mCDRLUPA8.html",
       "/posts/WEC-Bench_mCDR.html",
       "/posts/SubWEC_WESRF2.html",
       "/posts/WEC-Bench.html",
       "/posts/TEAMERScour.html",
-      "/posts/WECAUV4.html"
+      "/posts/WECAUV4.html",
+      "/posts/UHFOSWEC.html",
+      "/posts/UHDryFOSWEC.html",
+      "/posts/TEAMERMTULUPA5.html"
     ]
   }
 ]
