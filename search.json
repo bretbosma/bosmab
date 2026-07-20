@@ -14,67 +14,11 @@
     "text": "WECBench is the initial checkout of the new PMEC facility funded under the IIJA grant. First application was a checkout of the LUPA PTO configured for the mCDR project. Charging of the supercapacitor bank from 150V to 300V.\nDuration: 2025 - 2026\nFacility: PMEC Laboratory WEC-Bench\nConditions tested: amplitude = 90 deg period = 1.8 s and 225 deg, T = 2.5 s\nGoals:\n\nCheckout of DC power supply, power analyzer, and charging of capacitor bank with generator\n\nEfficiency\n\ncomparing average power at different stages of the conversion chain\n\nSankey diagrams\n\n\n\n\n\nWECBench"
   },
   {
-    "objectID": "posts/SubWEC3.html",
-    "href": "posts/SubWEC3.html",
-    "title": "SubWEC3",
+    "objectID": "posts/SubWEC_WESRF2.html",
+    "href": "posts/SubWEC_WESRF2.html",
+    "title": "SubWEC_WESRF2",
     "section": "",
-    "text": "SubWEC3 Testing of SubWEC in the large wave flume (LWF). Tested original SubWEC shape as well as Cake WEC and Wing WEC geometries.\nDuration: Summer 2026\nFacility: LWF\nConditions tested: Regular and Random waves\nGoals:\n\nTest different WEC shapes\nTest control techniques\n\n\n\n\nSubWEC3"
-  },
-  {
-    "objectID": "posts/TEAMERScour.html",
-    "href": "posts/TEAMERScour.html",
-    "title": "TEAMERScour",
-    "section": "",
-    "text": "TEAMERScour is a scour project in the flume with a sandpit and FOSWEC with the applicant a PhD student from the University of Porto, Portugal.\nDuration: 12/29/2025 - 2/13/2026\nFacility: Large Wave Flume\nWave Condition: H = 0.5 m, T = 3.2 s, Jonswap\nGoals:\n\ncomparisons of scour patterns for different protections\n\njust sand\ncylinder\ndifferent protections\nFOSWEC\n\nactive\nfixed\n\n\n\n\n\n\nFOSWECinFlume"
-  },
-  {
-    "objectID": "posts/WEC-Bench_mCDR.html",
-    "href": "posts/WEC-Bench_mCDR.html",
-    "title": "WEC-Bench mCDR",
-    "section": "",
-    "text": "WECBench mCDR Testing of the complete mCDR system to be deployed on LUPA. Combined testing of Generator, drive, supercapacitor bank, charge controller, battery, buck conveter, and dummy load.\nDuration: Winter 2025 - Spring 2026\nFacility: PMEC Laboratory WEC-Bench & LUPA motor and power electronics\nConditions tested: various amplitudes and periods\nGoals:\n\nCheckout of supercapacitor bank, charge controller, battery, buck converter, and dummy load\n\nProcess for saving charge controller data\nMeasurement of power into load (current shunt and voltage measurements)\nDummy resistor tested with 5 V, ~4 A, ~20 W\n\n\n\n\n\nWECBench mCDR"
-  },
-  {
-    "objectID": "posts/UHDryFOSWEC.html",
-    "href": "posts/UHDryFOSWEC.html",
-    "title": "UHDryFOSWEC",
-    "section": "",
-    "text": "UHDryFOSWEC is a project demonstrating static and swing tests on FOSWEC. Load cells on swing lines used to determine mass properties. Swing tests used to estimate moments of inertia.\nDuration: August 2025\nFacility: Swing; FOSWEC; Qualisys\nConditions tested: mass properties; moments of inertia\nGoals:\n\nDry test FOSWEC to determine mass properties and moments of inertia\n\nSwing tests using Qualisys motion tracking\n\n\n\n\n\nUHDryFOSWEC"
-  },
-  {
-    "objectID": "posts/mCDRLUPA8.html",
-    "href": "posts/mCDRLUPA8.html",
-    "title": "mCDRLUPA8",
-    "section": "",
-    "text": "mCDRLUPA8 Testing of LUPA in the large wave flume (LWF) with electrolyzer. LUPA charges batteries that suupply power to the electrolyzer.\nDuration: Spring 2026\nFacility: LWF\nConditions tested: Regular and Random waves just charging capacitors and charging batteries\nGoals:\n\nDemonstrate LUPA powering mCDR electrolyzer\n\nCharacterize and find max electrical power conditions for LUPA in the LWF\nDamping sweep finding otpimal damping for electrical power charging capacitors\nTesting of random wave electrical power generation for two Tp values finding max Hs condition\nTest charging of the batteries with charge controller\n\n\n\n\n\nmCDRLUPA8"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Bret Bosma Research Blog",
-    "section": "",
-    "text": "NAVFACOSWECS\n\n\n\nDirectional Wave Basin\n\nElectrical Power Generation\n\nControl\n\n\n\nOSWEC testing OSU and UW\n\n\n\n\n\nJun 29, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSubWEC3\n\n\n\nLarge Wave Flume\n\nSubWEC\n\nControl\n\n\n\nSubWEC shape options\n\n\n\n\n\nJun 26, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nmCDRLUPA8\n\n\n\nLarge Wave Flume\n\nmCDR\n\nControl\n\nElectrical power\n\n\n\nmCDR wave tank testing\n\n\n\n\n\nMay 28, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWEC-Bench mCDR\n\n\n\nWEC-Bench\n\nmCDR\n\n\n\nmCDR system testing\n\n\n\n\n\nMar 17, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSubWEC_WESRF2\n\n\n\nSubWEC\n\nWESRF\n\n\n\nWESRF testing of SubWEC PTO unit\n\n\n\n\n\nMar 5, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWEC-Bench\n\n\n\nWEC-Bench\n\n\n\nIntial checkout for the WEC-Bench facility\n\n\n\n\n\nFeb 9, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERScour\n\n\n\nFOSWEC\n\nLarge Wave Flume\n\n\n\nFOSWEC testing in the flume\n\n\n\n\n\nFeb 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWECAUV4\n\n\n\nWECAUV\n\nLinear Actuator\n\nLarge Wave Flume\n\n\n\nWECAUV dock testing with linear actuator\n\n\n\n\n\nOct 10, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nUHFOSWEC\n\n\n\nFOSWEC\n\nLarge Wave Flume\n\nTension Mooring\n\n\n\nUHFOSWEC Submerged Tension Moored Testing\n\n\n\n\n\nSep 15, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nUHDryFOSWEC\n\n\n\nFOSWEC\n\nSwing\n\n\n\nUHDryFOSWEC Swing Tests\n\n\n\n\n\nAug 28, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERMTULUPA5\n\n\n\nLUPA\n\nLarge Wave Flume\n\nControl\n\n\n\nLUPA reinforcement learning testing in the flume\n\n\n\n\n\nFeb 18, 2025\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/NAVFACOSWECS.html",
-    "href": "posts/NAVFACOSWECS.html",
-    "title": "NAVFACOSWECS",
-    "section": "",
-    "text": "NAVFACOSWECS Testing of FOSWEC in the directional wave basin (DWB). First tested UW OSWEC, then fixed FOSWEC at different platform angles to simulate beach slopes, three water depths, and regular and random waves.\nDuration: Summer 2026\nFacility: DWB\nConditions tested: Regular and Random waves\nGoals:\n\nOSU - record mechanical and electrical power generation\nOSU - test impact of water depth on power production\nOSU - test impact of inclination on power production\nOSU - test impact of wave conditions on power production\n\n\n\n\nNAVFACOSWECS"
-  },
-  {
-    "objectID": "posts/TEAMERMTULUPA5.html",
-    "href": "posts/TEAMERMTULUPA5.html",
-    "title": "TEAMERMTULUPA5",
-    "section": "",
-    "text": "TEAMERMTULUPA5 is a project using deep reinforcement learning to optimize power output from the LUPA device.\nApplicant: Shangyan Zou - Michigan Tech University\nDuration: Winter 2025-2026\nFacility: Large Wave Flume\nWave Condition: Regular and random waves\nGoals:\n\nDeep reinforcement learning algorithm applied to LUPA to maximize power generation\n\n\n\n\nFOSWECinFlume"
-  },
-  {
-    "objectID": "posts/WECAUV4.html",
-    "href": "posts/WECAUV4.html",
-    "title": "WECAUV4",
-    "section": "",
-    "text": "WECAUV4 is a project demonstrating docking of an AUV in the large wave flume as well as real time control of an actuator simulating the motions of a WEC.\nDuration: October 2025\nFacility: Large Wave Flume; Linear Actuator; AUV\nConditions tested: regular, random, and no wave cases\nGoals:\n\nCheckout of linear acuator control system for mimicing WEC motion under various wave conditions\n\nWEC-AUV docking\n\nDocking excercises under various wave conditions\n\n\n\n\n\n\nWECAUV4"
+    "text": "SubWEC_WESRF2 is a test campaign in the WESRF laboratory on the Linear Test Bed(LTB). Students Inyong Kim and Tanvir Alam Shifat are testing real time control algorithms related to WEC control and LTB control.\nDuration: 3/2026-?\nFacility: WESRF Linear Test Bed\nGoals:\n\nReal-time control of Linear Test Bed integrating WEC-Sim\nReal-time control of WEC PTO with dynamic damping control\n\n\n\n\nSubWEC_WESRF2"
   },
   {
     "objectID": "posts/UHFOSWEC.html",
@@ -84,11 +28,74 @@
     "text": "UHFOSWEC is a project demonstrating FOSWEC as a submerged WEC in the Large Wave Flume. Depths of submergence was controled with a three point tension mooring system\nDuration: September 2025\nFacility: Large Wave Flume; FOSWEC\nConditions tested: regular, random, free decay\nGoals:\n\nTest FOSWEC at multiple depths of submergence.\n\nProvide dataset to validate numerical model\n\n\n\n\n\nUHFOSWEC"
   },
   {
-    "objectID": "posts/SubWEC_WESRF2.html",
-    "href": "posts/SubWEC_WESRF2.html",
-    "title": "SubWEC_WESRF2",
+    "objectID": "posts/WECAUV4.html",
+    "href": "posts/WECAUV4.html",
+    "title": "WECAUV4",
     "section": "",
-    "text": "SubWEC_WESRF2 is a test campaign in the WESRF laboratory on the Linear Test Bed(LTB). Students Inyong Kim and Tanvir Alam Shifat are testing real time control algorithms related to WEC control and LTB control.\nDuration: 3/2026-?\nFacility: WESRF Linear Test Bed\nGoals:\n\nReal-time control of Linear Test Bed integrating WEC-Sim\nReal-time control of WEC PTO with dynamic damping control\n\n\n\n\nSubWEC_WESRF2"
+    "text": "WECAUV4 is a project demonstrating docking of an AUV in the large wave flume as well as real time control of an actuator simulating the motions of a WEC.\nDuration: October 2025\nFacility: Large Wave Flume; Linear Actuator; AUV\nConditions tested: regular, random, and no wave cases\nGoals:\n\nCheckout of linear acuator control system for mimicing WEC motion under various wave conditions\n\nWEC-AUV docking\n\nDocking excercises under various wave conditions\n\n\n\n\n\n\nWECAUV4"
+  },
+  {
+    "objectID": "posts/TEAMERMTULUPA5.html",
+    "href": "posts/TEAMERMTULUPA5.html",
+    "title": "TEAMERMTULUPA5",
+    "section": "",
+    "text": "TEAMERMTULUPA5 is a project using deep reinforcement learning to optimize power output from the LUPA device.\nApplicant: Shangyan Zou - Michigan Tech University\nDuration: Winter 2025-2026\nFacility: Large Wave Flume\nWave Condition: Regular and random waves\nGoals:\n\nDeep reinforcement learning algorithm applied to LUPA to maximize power generation\n\n\n\n\nFOSWECinFlume"
+  },
+  {
+    "objectID": "posts/NAVFACOSWECS.html",
+    "href": "posts/NAVFACOSWECS.html",
+    "title": "NAVFACOSWECS",
+    "section": "",
+    "text": "NAVFACOSWECS Testing of FOSWEC in the directional wave basin (DWB). First tested UW OSWEC, then fixed FOSWEC at different platform angles to simulate beach slopes, three water depths, and regular and random waves.\nDuration: Summer 2026\nFacility: DWB\nConditions tested: Regular and Random waves\nGoals:\n\nOSU - record mechanical and electrical power generation\nOSU - test impact of water depth on power production\nOSU - test impact of inclination on power production\nOSU - test impact of wave conditions on power production\n\n\n\n\nNAVFACOSWECS"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Bret Bosma Research Blog",
+    "section": "",
+    "text": "NAVFACOSWECS\n\n\n\nDirectional Wave Basin\n\nElectrical Power Generation\n\nControl\n\n\n\nOSWEC testing OSU and UW\n\n\n\n\n\nJun 29, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSubWEC3\n\n\n\nLarge Wave Flume\n\nSubWEC\n\nControl\n\n\n\nSubWEC shape options\n\n\n\n\n\nJun 26, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nmCDRLUPA8\n\n\n\nLarge Wave Flume\n\nmCDR\n\nControl\n\nElectrical power\n\n\n\nmCDR wave tank testing\n\n\n\n\n\nMay 28, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWEC-Bench mCDR\n\n\n\nWEC-Bench\n\nmCDR\n\n\n\nmCDR system testing\n\n\n\n\n\nMar 17, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nSubWEC_WESRF2\n\n\n\nSubWEC\n\nWESRF\n\n\n\nWESRF testing of SubWEC PTO unit\n\n\n\n\n\nMar 5, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWEC-Bench\n\n\n\nWEC-Bench\n\n\n\nIntial checkout for the WEC-Bench facility\n\n\n\n\n\nFeb 9, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERScour\n\n\n\nFOSWEC\n\nLarge Wave Flume\n\n\n\nFOSWEC testing in the flume\n\n\n\n\n\nFeb 6, 2026\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nWECAUV4\n\n\n\nWECAUV\n\nLinear Actuator\n\nLarge Wave Flume\n\n\n\nWECAUV dock testing with linear actuator\n\n\n\n\n\nOct 10, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nUHFOSWEC\n\n\n\nFOSWEC\n\nLarge Wave Flume\n\nTension Mooring\n\n\n\nUHFOSWEC Submerged Tension Moored Testing\n\n\n\n\n\nSep 15, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nUHDryFOSWEC\n\n\n\nFOSWEC\n\nSwing\n\n\n\nUHDryFOSWEC Swing Tests\n\n\n\n\n\nAug 28, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nLUPA7\n\n\n\nLarge Wave Flume\n\nSystem Identification\n\nControl\n\n\n\nLUPA System Identification testing\n\n\n\n\n\nApr 2, 2025\n\n\nBret Bosma\n\n\n\n\n\n\n\n\n\n\n\n\nTEAMERMTULUPA5\n\n\n\nLUPA\n\nLarge Wave Flume\n\nControl\n\n\n\nLUPA reinforcement learning testing in the flume\n\n\n\n\n\nFeb 18, 2025\n\n\nBret Bosma\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/mCDRLUPA8.html",
+    "href": "posts/mCDRLUPA8.html",
+    "title": "mCDRLUPA8",
+    "section": "",
+    "text": "mCDRLUPA8 Testing of LUPA in the large wave flume (LWF) with electrolyzer. LUPA charges batteries that suupply power to the electrolyzer.\nDuration: Spring 2026\nFacility: LWF\nConditions tested: Regular and Random waves just charging capacitors and charging batteries\nGoals:\n\nDemonstrate LUPA powering mCDR electrolyzer\n\nCharacterize and find max electrical power conditions for LUPA in the LWF\nDamping sweep finding otpimal damping for electrical power charging capacitors\nTesting of random wave electrical power generation for two Tp values finding max Hs condition\nTest charging of the batteries with charge controller\n\n\n\n\n\nmCDRLUPA8"
+  },
+  {
+    "objectID": "posts/UHDryFOSWEC.html",
+    "href": "posts/UHDryFOSWEC.html",
+    "title": "UHDryFOSWEC",
+    "section": "",
+    "text": "UHDryFOSWEC is a project demonstrating static and swing tests on FOSWEC. Load cells on swing lines used to determine mass properties. Swing tests used to estimate moments of inertia.\nDuration: August 2025\nFacility: Swing; FOSWEC; Qualisys\nConditions tested: mass properties; moments of inertia\nGoals:\n\nDry test FOSWEC to determine mass properties and moments of inertia\n\nSwing tests using Qualisys motion tracking\n\n\n\n\n\nUHDryFOSWEC"
+  },
+  {
+    "objectID": "posts/WEC-Bench_mCDR.html",
+    "href": "posts/WEC-Bench_mCDR.html",
+    "title": "WEC-Bench mCDR",
+    "section": "",
+    "text": "WECBench mCDR Testing of the complete mCDR system to be deployed on LUPA. Combined testing of Generator, drive, supercapacitor bank, charge controller, battery, buck conveter, and dummy load.\nDuration: Winter 2025 - Spring 2026\nFacility: PMEC Laboratory WEC-Bench & LUPA motor and power electronics\nConditions tested: various amplitudes and periods\nGoals:\n\nCheckout of supercapacitor bank, charge controller, battery, buck converter, and dummy load\n\nProcess for saving charge controller data\nMeasurement of power into load (current shunt and voltage measurements)\nDummy resistor tested with 5 V, ~4 A, ~20 W\n\n\n\n\n\nWECBench mCDR"
+  },
+  {
+    "objectID": "posts/TEAMERScour.html",
+    "href": "posts/TEAMERScour.html",
+    "title": "TEAMERScour",
+    "section": "",
+    "text": "TEAMERScour is a scour project in the flume with a sandpit and FOSWEC with the applicant a PhD student from the University of Porto, Portugal.\nDuration: 12/29/2025 - 2/13/2026\nFacility: Large Wave Flume\nWave Condition: H = 0.5 m, T = 3.2 s, Jonswap\nGoals:\n\ncomparisons of scour patterns for different protections\n\njust sand\ncylinder\ndifferent protections\nFOSWEC\n\nactive\nfixed\n\n\n\n\n\n\nFOSWECinFlume"
+  },
+  {
+    "objectID": "posts/SubWEC3.html",
+    "href": "posts/SubWEC3.html",
+    "title": "SubWEC3",
+    "section": "",
+    "text": "SubWEC3 Testing of SubWEC in the large wave flume (LWF). Tested original SubWEC shape as well as Cake WEC and Wing WEC geometries.\nDuration: Summer 2026\nFacility: LWF\nConditions tested: Regular and Random waves\nGoals:\n\nTest different WEC shapes\nTest control techniques\n\n\n\n\nSubWEC3"
+  },
+  {
+    "objectID": "posts/LUPA7.html",
+    "href": "posts/LUPA7.html",
+    "title": "LUPA7",
+    "section": "",
+    "text": "LUPA7 Testing of LUPA in the large wave flume (LWF). Collecting system identification and validation data for EWTEC 2025 conference paper.\nDuration: Spring 2025\nFacility: LWF\nConditions tested: Multisine reference input; Regular waves\nGoals:\n\nCollect System Identification data for applying impedance matching model\n\nStill water multisine reference signal input\nRegular wave validation runs\n\n\n\n\n\nLUPA7"
   },
   {
     "objectID": "pubs.html",
