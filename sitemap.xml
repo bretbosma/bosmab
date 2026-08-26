@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://bretbosma.github.io/bosmab/index.html</loc>
-    <lastmod>2026-07-27T15:30:51.376Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/TEAMERScour.html</loc>
-    <lastmod>2026-07-27T15:30:51.393Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/SubWEC_WESRF2.html</loc>
-    <lastmod>2026-07-27T15:30:51.386Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/WEC-Bench_mCDR.html</loc>
-    <lastmod>2026-07-27T15:30:51.400Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/SubWEC2.html</loc>
-    <lastmod>2026-07-27T15:30:51.382Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/UHFOSWEC.html</loc>
-    <lastmod>2026-07-27T15:30:51.397Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/SubWEC3.html</loc>
-    <lastmod>2026-07-27T15:30:51.384Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/TEAMERAOELUPA6.html</loc>
-    <lastmod>2026-07-27T15:30:51.388Z</lastmod>
+    <loc>https://bretbosma.github.io/bosmab/blog.html</loc>
+    <lastmod>2026-08-26T17:42:03.482Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/pubs.html</loc>
-    <lastmod>2026-07-27T15:30:51.413Z</lastmod>
+    <lastmod>2026-08-26T17:42:03.548Z</lastmod>
   </url>
   <url>
-    <loc>https://bretbosma.github.io/bosmab/blog.html</loc>
-    <lastmod>2026-07-27T15:30:51.337Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/UHDryFOSWEC.html</loc>
-    <lastmod>2026-07-27T15:30:51.395Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/LUPA7.html</loc>
-    <lastmod>2026-07-27T15:30:51.378Z</lastmod>
-  </url>
-  <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/NAVFACOSWECS.html</loc>
-    <lastmod>2026-07-27T15:30:51.380Z</lastmod>
+    <loc>https://bretbosma.github.io/bosmab/posts/TEAMERScour.html</loc>
+    <lastmod>2026-08-26T17:42:03.531Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/posts/WEC-Bench.html</loc>
-    <lastmod>2026-07-27T15:30:51.399Z</lastmod>
+    <lastmod>2026-08-26T17:42:03.536Z</lastmod>
   </url>
   <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/WECAUV4.html</loc>
-    <lastmod>2026-07-27T15:30:51.400Z</lastmod>
+    <loc>https://bretbosma.github.io/bosmab/posts/NAVFACOSWECS.html</loc>
+    <lastmod>2026-08-26T17:42:03.520Z</lastmod>
   </url>
   <url>
-    <loc>https://bretbosma.github.io/bosmab/posts/HybridMooring.html</loc>
-    <lastmod>2026-07-27T15:30:51.376Z</lastmod>
+    <loc>https://bretbosma.github.io/bosmab/posts/TEAMERAOELUPA6.html</loc>
+    <lastmod>2026-08-26T17:42:03.527Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/UHFOSWEC.html</loc>
+    <lastmod>2026-08-26T17:42:03.534Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/posts/mCDRLUPA8.html</loc>
-    <lastmod>2026-07-27T15:30:51.404Z</lastmod>
+    <lastmod>2026-08-26T17:42:03.541Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/SubWEC2.html</loc>
+    <lastmod>2026-08-26T17:42:03.522Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/SubWEC3.html</loc>
+    <lastmod>2026-08-26T17:42:03.524Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/WEC-Bench_mCDR.html</loc>
+    <lastmod>2026-08-26T17:42:03.538Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/SubWEC_WESRF2.html</loc>
+    <lastmod>2026-08-26T17:42:03.526Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/WECAUV4.html</loc>
+    <lastmod>2026-08-26T17:42:03.538Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/LUPA7.html</loc>
+    <lastmod>2026-08-26T17:42:03.518Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/HybridMooring.html</loc>
+    <lastmod>2026-08-26T17:42:03.517Z</lastmod>
   </url>
   <url>
     <loc>https://bretbosma.github.io/bosmab/posts/TEAMERMTULUPA5.html</loc>
-    <lastmod>2026-07-27T15:30:51.391Z</lastmod>
+    <lastmod>2026-08-26T17:42:03.529Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/posts/UHDryFOSWEC.html</loc>
+    <lastmod>2026-08-26T17:42:03.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bretbosma.github.io/bosmab/index.html</loc>
+    <lastmod>2026-08-26T17:42:03.517Z</lastmod>
   </url>
 </urlset>
