@@ -7,6 +7,7 @@ categories:
 - Large Wave Flume
 - Emulation
 - Pneumatic
+- LUPA
 date: "3/25/2025"
 ---
 

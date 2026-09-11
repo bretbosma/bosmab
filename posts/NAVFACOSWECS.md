@@ -5,8 +5,9 @@ author: "Bret Bosma"
 badges: true
 categories:
 - Directional Wave Basin
-- Electrical Power Generation
+- Electrical Power
 - Control
+- FOSWEC
 date: "6/29/2026"
 ---
 

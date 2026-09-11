@@ -7,7 +7,8 @@ categories:
 - Large Wave Flume
 - mCDR
 - Control
-- Electrical power
+- Electrical Power
+- LUPA
 date: "5/28/2026"
 ---
 

@@ -7,6 +7,7 @@ categories:
 - Large Wave Flume
 - System Identification
 - Control
+- LUPA
 date: "4/2/2025"
 ---
 
