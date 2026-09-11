@@ -22,7 +22,7 @@ Goals:
 
 * Test novel slotted breakwater OWC design with various PTO outputs
 
-![OHOWCBarrier](OHOWCBarrier.png)
+![OHOWCBarrier](UHOWCBarrier.png)
 
 
 
