@@ -56,6 +56,8 @@ subtitle: ""
 			</div>
 			<div class="yui-u">
             <h3 class="anchored">2026</h3>
+			<p>A. Subramanian et al., “Deep reinforcement learning based optimal control for wave energy converters: practical implementation and experimental validation,” Sci. Rep., Oct. 2026, doi: 10.1038/s41598-026-73553-0.</p>
+			<p>&nbsp;</p>
 			<p>R. Ali, A. Roach, B. Bosma, P. Lomonaco, and B. Robertson, “Subharmonic excitation and nonlinear coupling in submerged wave energy converters,” Ocean Eng., vol. 368, p. 128277, Nov. 2026, doi: 10.1016/j.oceaneng.2026.128277.</p>
 			<p>&nbsp;</p>
 			<p>J. Lou, A. Kane, D. Okushemiya, B. Bosma, B. Robertson, and G. Hollinger, “A mixed-scale hardware-in-the-loop testing framework for wave energy converter-autonomous underwater vehicle systems,” Ocean Eng., vol. 368, p. 128189, Nov. 2026, doi: 10.1016/j.oceaneng.2026.128189.</p>
