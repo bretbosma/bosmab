@@ -19,7 +19,7 @@ Duration: Spring 2025
 
 Facility: LWF
 
-Conditions tested: Regular and Random waves just charging capacitors and charging batteries
+Conditions tested: Regular and Random waves tuning pneumatic emulation model
 
 Goals:
 
